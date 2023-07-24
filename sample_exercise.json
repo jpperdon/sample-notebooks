@@ -1,0 +1,101 @@
+[
+    {
+        "question": "Choose all of the different types of HTTP methods for API(s)?",
+        "type": "many_choice",
+        "answers": [
+            {
+                "answer": "GET",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "PUT",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "POST",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "READ",
+                "correct": false,
+                "feedback": "Sorry. This is not included"
+            },
+            {
+                "answer": "WRITE",
+                "correct": false,
+                "feedback": "Sorry. This is not included"
+            }
+        ]
+    },
+    {
+        "question": "Which HTTP header is commonly used for requesting a specific content type in the API response??",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "Authorization",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "User-Agent",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "Host",
+                "correct": false,
+                "feedback": "Incorrect."
+            },
+            {
+                "answer": "Content-Type",
+                "correct": true,
+                "feedback": "Correct."
+            }
+        ]
+    },
+    {
+        "question": "What does JSON stand for",
+        "type": "multiple_choice",
+        "answers": [
+            {
+                "answer": "JavaScript Object Network",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "Java Object Notation",
+                "correct": false,
+                "feedback": "False."
+            },
+            {
+                "answer": "JavaScript Object Notation",
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "answer": "Java Object Network",
+                "correct": false,
+                "feedback": "False."
+            }
+        ]
+    },
+    {
+        "question": "When generating an RSA key pair using OpenSSL, what is the default key size used in bits",
+        "type": "numeric",
+        "answers": [
+            {
+                "type": "value",
+                "value": 2048,
+                "correct": true,
+                "feedback": "Correct."
+            },
+            {
+                "type": "default",
+                "feedback": "Incorrect."
+            }
+        ]
+    }
+]
